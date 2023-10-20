@@ -17,19 +17,15 @@ export class FaceSnapComponent implements OnInit {
    buttonText!: string;
 
    ngOnInit() {
-    this.title = 'DriX';
-    this.description = 'Best-in-class Unmanned Surface Vessel with outstanding sea keeping capabilities and a proven track record in enhancing sea operations efficiency';
-    this.creationDate = new Date();
-    this.snaps = 6;
-    this.imageUrl = 'https://images.laprovence.com/media/hermes/20230313/20230313_1_2_5_1_1_obj27742682_1.jpg?twic=v1/crop=746x419@0x138/cover=1250x703'
+
     this.buttonText = 'Oh Snap!'
   }
   onSnap() {
     if (this.buttonText === 'Oh Snap!') {
-     this.snaps++;
+     this.faceSnap.snaps++;
      this.buttonText = 'Oops, unSnap!';
     } else {      
-     this.snaps--;
+     this.faceSnap.snaps--;
      this.buttonText = 'Oh Snap!';
     }
   } 
@@ -43,7 +39,4 @@ export class FaceSnapComponent implements OnInit {
 
    //Carrier Protos !
    //https://oyster.ignimgs.com/mediawiki/apis.ign.com/starcraft/a/aa/ProBroodM7P1.jpg?width=640
-
-   //Drone du Carrier Protos
-   //https://liquipedia.net/commons/images/5/58/Interceptor.gif
 }
