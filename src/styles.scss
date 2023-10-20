@@ -2,3 +2,12 @@
 * {
     font-family: Roboto, Helvetica, sans-serif;
   }
+body{
+    background-color: #1d1d1d;
+    color: #fff;
+}
+.container{
+  margin-inline: auto;
+    max-width: 90%;
+    width: min(100% - 2rem,82.5rem);
+}
