@@ -1,4 +1,13 @@
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
 .face-snap-card {
+  /*border: 1px solid rgb(255,255,255);*/
+  margin: 15px;
+  padding: 10px;
+  max-width: 350px;
     img {
       width: 100%;
     }
@@ -11,4 +20,8 @@ button{    background-color: #00ffda;
   border: none;
   overflow: hidden;
   font-weight: 700;
+}
+
+.snapped{
+  box-shadow: 0px 0px 20px #00ffda;
 }
