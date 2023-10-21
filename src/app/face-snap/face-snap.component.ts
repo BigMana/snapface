@@ -22,10 +22,10 @@ export class FaceSnapComponent implements OnInit {
   }
   onSnap() {
     if (this.buttonText === 'Oh Snap!') {
-      this.snaps++;
+      this.faceSnap.snaps++;
       this.buttonText = 'Oops, unSnap!';
     } else {
-      this.snaps--;
+      this.faceSnap.snaps--;
       this.buttonText = 'Oh Snap!';
     }
   }
