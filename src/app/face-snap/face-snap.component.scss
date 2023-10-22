@@ -2,6 +2,7 @@
 .container{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .face-snap-card {
   /*border: 1px solid rgb(255,255,255);*/
@@ -12,7 +13,7 @@
       width: 100%;
     }
   }
-button{    background-color: #00ffda;
+.snapButton{    background-color: #00ffda;
   border: 0.0625rem solid #00ffda;
   border-radius: 3.75rem;
   color: #1d1d1b;
