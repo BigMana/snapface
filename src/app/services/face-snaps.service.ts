@@ -22,7 +22,7 @@ export class FaceSnapsService {
       description: 'A18-D is Exail mid size Autonomous Underwater Vehicle, AUV, for deep water applications. It is dedicated to accurate 3D seabed Survey. It performs autonomous mission up to 3000 m depth with 21 h endurance, and is easy transportable by plane for oversea missions. This system can be delivered with a LARS allowing automatic underwater recovery and software for data post processing.',
       imageUrl: 'https://www.ecagroup.com/media-picture/7404-754-473-a18d-credits-exail-balao-hd.jpg',
       createdDate: new Date(),
-      audio: '<audio src="src/assets/sounds/Yellow-Submarine.mp3"></audio>',
+      audio: 'assets/sounds/Yellow-Submarine.mp3',
       snaps: 0,
       location: 'Six-Four-Beaches'
     },

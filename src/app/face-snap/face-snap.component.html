@@ -1,16 +1,23 @@
 <div class="face-snap-card" [ngClass]="{ snapped: buttonText === 'Oops, unSnap!' }">
   <div class="top-card">
-  <h2>{{faceSnap.title}}</h2>
-  <p>Crée le : {{faceSnap.createdDate | date: 'medium'}}</p>
-  <img [src]="faceSnap.imageUrl" [alt]="">
-  <p *ngIf="faceSnap.location">Picture taken at : {{faceSnap.location}}</p>
-  <p>{{ faceSnap.description }}</p>
+    <h2>{{faceSnap.title}}</h2>
+    <p>Crée le : {{faceSnap.createdDate | date: 'medium'}}</p>
+    <img [src]="faceSnap.imageUrl" [alt]="">
+    <p *ngIf="faceSnap.location">Picture taken at : {{faceSnap.location}}</p>
+    <p>{{ faceSnap.description }}</p>
   </div>
   <div class="end-card">
-    <div *ngIf="faceSnap.audio" class="audio">o</div>
-  <p>
-      <button class="snapButton" (click)="onSnap()">{{ buttonText }}</button>
-      <span [ngStyle]="{ color: 'rgb(255, ' + this.faceSnap.snaps*255 + ', 255)'}">🤌 {{ faceSnap.snaps }} </span>
-  </p>
+    <div *ngIf="faceSnap.audio" class="audio">
+      <div [ngClass]="{ unset: buttonText !== 'Oops, unSnap!' }">
+      <figure>
+        <figcaption>Listen to the submarine song:</figcaption>
+          <audio controls src="{{faceSnap.audio}}"></audio>
+      </figure>
+    </div>
+    </div>
+    <p>
+        <button class="snapButton" (click)="onSnap()">{{ buttonText }}</button>
+        <span [ngStyle]="{ color: 'rgb(255, ' + this.faceSnap.snaps*255 + ', 255)'}">🤌 {{ faceSnap.snaps }} </span>
+    </p>
   </div>
-  </div>
+</div>
