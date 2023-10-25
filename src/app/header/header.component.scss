@@ -9,6 +9,11 @@ a{
 .container{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    flex-direction: row;
+    margin-bottom: 30px;
 }
 h1 img{
     max-height: .8em;
