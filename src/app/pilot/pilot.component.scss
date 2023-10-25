@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    border-style: groove;
+    box-shadow: 0px 0px 10px #00ffda inset ;
+}
+.screen{
+    background-image: url("../../assets/img/drone-pilote.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    border-style: groove;
+    margin: 5px;
+    box-shadow: 0px 0px 10px #00ffda;
+    width: clamp(300px, 47vw, 700px);
+    height: clamp(300px, 50vh, 700px);
+}

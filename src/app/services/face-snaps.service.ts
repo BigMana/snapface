@@ -14,7 +14,8 @@ export class FaceSnapsService {
       imageUrl: 'https://images.laprovence.com/media/hermes/20230313/20230313_1_2_5_1_1_obj27742682_1.jpg?twic=v1/crop=746x419@0x138/cover=1250x703',
       createdDate: new Date(),
       routerLink: "/pilot",
-      linkText: "a",
+      linkText: "Let's try to Pilot The DriX !",
+      linkImage: "b",
       snaps: 5,
       location: 'La Ciotat'
     },
