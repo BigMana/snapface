@@ -1,9 +1,14 @@
 a{
+    margin: 0 10px;
     color: #00ffda;
-    &:active {
-        transform: translate(1px, 1px);
-        box-shadow: lightgray 0 0 5px;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
       }
+}
+.active{
+    text-decoration: underline;
 }
 
 .container{

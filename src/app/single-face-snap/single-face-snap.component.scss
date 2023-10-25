@@ -1,0 +1,25 @@
+.face-snap-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 15px;
+    max-width: 350px;
+    height: 100%;
+      img {
+        width: 100%;
+      }
+    transition: 700ms;
+    }
+  .top-card{
+    display: flex;
+    flex-direction: column;  
+    overflow: auto;
+    text-overflow: ellipsis;
+    }
+  .end-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+  }
+  

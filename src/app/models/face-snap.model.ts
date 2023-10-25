@@ -5,6 +5,9 @@ export class FaceSnap {
     imageUrl!: string;
     createdDate!: Date; 
     snaps!: number;
+    routerLink?: string;
+    linkText?: string;
     audio?: string;
+    audioCaption? : string;
     location?: string
 }

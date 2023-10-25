@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  EXAILlogo = "favicon.jpg"
+  EXAILlogo = "assets/img/favicon.jpg"
 }
