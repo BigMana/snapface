@@ -5,13 +5,13 @@
   justify-content: space-evenly;
 }
 .face-snap-card {
-  /*border: 1px solid rgb(255,255,255);*/
   margin: 15px;
   padding: 10px;
   max-width: 350px;
     img {
       width: 100%;
     }
+  transition: 700ms;
   }
 .snapButton{    background-color: #00ffda;
   border: 0.0625rem solid #00ffda;
