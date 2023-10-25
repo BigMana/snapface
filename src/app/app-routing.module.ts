@@ -4,8 +4,8 @@ import { FaceSnapListComponent } from "./face-snap-list/face-snap-list.component
 import { LandigPageComponent } from "./landig-page/landig-page.component";
 
 const routes: Routes = [
-    { path: 'facesnaps', component: FaceSnapListComponent },
-    { path: '', component: LandigPageComponent}
+    { path: '', component: LandigPageComponent},
+    { path: 'facesnaps', component: FaceSnapListComponent }
 ];
 
 @NgModule({
