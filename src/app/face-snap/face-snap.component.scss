@@ -1,18 +1,30 @@
-
-.container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
 .face-snap-card {
-  margin: 15px;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 15px;
   max-width: 350px;
+  height: 100%;
     img {
       width: 100%;
     }
   transition: 700ms;
   }
+.top-card{
+  display: flex;
+  flex-direction: column;  
+  overflow: auto;
+  text-overflow: ellipsis;
+  }
+.end-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+
+
 .snapButton{    background-color: #00ffda;
   border: 0.0625rem solid #00ffda;
   border-radius: 3.75rem;

@@ -22,14 +22,31 @@ export class FaceSnapsService {
       description: 'A18-D is Exail mid size Autonomous Underwater Vehicle, AUV, for deep water applications. It is dedicated to accurate 3D seabed Survey. It performs autonomous mission up to 3000 m depth with 21 h endurance, and is easy transportable by plane for oversea missions. This system can be delivered with a LARS allowing automatic underwater recovery and software for data post processing.',
       imageUrl: 'https://www.ecagroup.com/media-picture/7404-754-473-a18d-credits-exail-balao-hd.jpg',
       createdDate: new Date(),
+      audio: '<audio src="src/assets/sounds/Yellow-Submarine.mp3"></audio>',
       snaps: 0,
       location: 'Six-Four-Beaches'
     },
     {
       id: 3,
+      title: 'Gallente NYX',
+      description: '"The "Super Carrier class" NYX With its Drones Hangar high Capacity of 110,000.00 m3, is a gigantic homage to a figure much loved in Gallente society. The ship’s design is based on the scepter of Doule dos Rouvenor III, the king who, during his peaceful 36-year reign, was credited with laying the foundation for the technologically and socially progressive ideologies which have pervaded Gallente thought in the millennia since."',
+      imageUrl: 'https://www.eveonlineships.com/public/exserv/gallente-carrier-nyx-3.jpg',
+      createdDate: new Date(),
+      snaps: 0
+    },
+    {
+      id: 4,
       title: 'Protos Carrier',
       description: '"These magnificent capital ships are known to inspire hope in the hearts of templar—or fear in their enemies. Armed with swift interceptors, they are a formidable force on the battlefield."',
       imageUrl: 'https://oyster.ignimgs.com/mediawiki/apis.ign.com/starcraft/a/aa/ProBroodM7P1.jpg?width=640',
+      createdDate: new Date(),
+      snaps: 0
+    },
+    {
+      id: 5,
+      title: 'T 1',
+      description: '"These Unmanned Surface Vessel robobots help carry out difficult agricultural work with as much precision as a human."',
+      imageUrl: 'https://c1.staticflickr.com/5/4326/36000331965_1ce415939d_b.jpg',
       createdDate: new Date(),
       snaps: 0
     }
