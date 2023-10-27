@@ -8,13 +8,26 @@
     box-shadow: 0px 0px 10px #00ffda inset ;
 }
 .screen{
-    background-image: url("../../assets/img/drone-pilote.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
     border-style: groove;
     margin: 5px;
     box-shadow: 0px 0px 10px #00ffda;
-    width: clamp(300px, 47vw, 800px);
-    height: clamp(300px, 47vh, 700px);
+    width: 48vw;
+    min-height: clamp(500px, 47vh, 48vh);
+    /*height: clamp(300px, 47vh, 700px);*/
+}
+.screen1{
+    background-image: url("../../assets/img/ExternVew.png");
+}
+.screen2{
+    background-image: url("../../assets/img/Map.png");
+    //https://www.ixblue.com/wp-content/uploads/2022/02/v2-drix-evitementfond-noir-ok-vecto.svg
+}
+.screen3{
+    background-image: url("../../assets/img/drone-pilote.jpg");
+}
+.screen4{
+    background-image: url("../../assets/img/TechnicalData.png");
 }

@@ -7,7 +7,9 @@
   max-width: 350px;
   height: 100%;
     img {
-      width: 100%;
+      max-width: 100%;
+      max-height: 40vh;
+      object-fit: contain;
     }
   transition: 700ms;
   }

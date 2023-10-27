@@ -40,6 +40,14 @@ export class FaceSnapsService {
     },
     {
       id: 4,
+      title: 'Gaps M7',
+      description: '"Gaps M7 is a high performance Ultra Short Baseline positioning and communication system for locating and communicating subsea assets. It combines an USBL antenna and a fiber-optic inertial navigation system (INS) in the same housing. "',
+      imageUrl: 'https://www.ixblue.com/wp-content/uploads/2023/03/gaps-m7-1.png',
+      createdDate: new Date(), //31 mars 1998
+      snaps: 0
+    },
+    {
+      id: 5,
       title: 'Protos Carrier',
       description: '"These magnificent capital ships are known to inspire hope in the hearts of templar—or fear in their enemies. Armed with swift interceptors, they are a formidable force on the battlefield."',
       imageUrl: 'https://oyster.ignimgs.com/mediawiki/apis.ign.com/starcraft/a/aa/ProBroodM7P1.jpg?width=640',
@@ -47,7 +55,23 @@ export class FaceSnapsService {
       snaps: 0
     },
     {
-      id: 5,
+      id: 6,
+      title: 'Canopus',
+      description: '"Canopus is the new intelligent seabed transponder providing the most advanced LBL capabilities to Exail positioning and navigation solutions."',
+      imageUrl: 'https://www.ixblue.com/wp-content/uploads/2022/01/canopus-02.jpg',
+      createdDate: new Date(), //31 mars 1998
+      snaps: 0
+    },
+    {
+      id: 7,
+      title: 'Droid ECA',
+      description: '"The Droid ECA is indeed formidable thanks in particular to its two pairs of blaster cannons. Located on two retractable arms, they fire each in turn, separated by a few tenths of a second. Power cables run through the arms and meet in the "spine" of the droid."',
+      imageUrl: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c8e4fe4-2070-4b9a-9efc-182406e949fd/ddfe8c8-3dd9e2fd-bfb9-4f89-81b2-d516bb098c4a.png/v1/fill/w_853,h_937/droideka_by_yare_yare_dong_ddfe8c8-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTE4NiIsInBhdGgiOiJcL2ZcLzljOGU0ZmU0LTIwNzAtNGI5YS05ZWZjLTE4MjQwNmU5NDlmZFwvZGRmZThjOC0zZGQ5ZTJmZC1iZmI5LTRmODktODFiMi1kNTE2YmIwOThjNGEucG5nIiwid2lkdGgiOiI8PTEwODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.fPY0aEk61Xoo0TVLQD-Q4RUPXq-i8LGcq8TgBtzmphY',
+      createdDate: new Date(), //31 mars 1998
+      snaps: 0
+    },
+    {
+      id: 8,
       title: 'T 1',
       description: '"These Unmanned Surface Vessel robobots help carry out difficult agricultural work with as much precision as a human."',
       imageUrl: 'https://c1.staticflickr.com/5/4326/36000331965_1ce415939d_b.jpg',
