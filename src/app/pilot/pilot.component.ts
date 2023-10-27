@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./pilot.component.scss']
 })
 export class PilotComponent {
-  ecran1 = "assets/img/ExternVew.png"
+  ecran1 = "assets/img/TechnicalData.png"
   ecran2 = "assets/img/Map.png"
   ecran3 = "assets/img/drone-pilote.jpg"
-  ecran4 = "assets/img/TechnicalData.png"
+  ecran4 = "assets/img/ExternVew.png"
 }

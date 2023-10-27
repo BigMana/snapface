@@ -14,11 +14,11 @@
     border-style: groove;
     margin: 5px;
     box-shadow: 0px 0px 10px #00ffda;
-    width: 48vw;
-   min-height: clamp(500px, 47vh, 48vh);
-    /*height: clamp(300px, 47vh, 700px);*/
+    width: 48%;
+    height: clamp(500px, 47vh, 48vh);
     img{
-        width: 48vw;
-        object-fit: contain;
+        width: 100%;
+        object-fit: cover;
+        height: clamp(500px, 47vh, 48vh);
     }
 }

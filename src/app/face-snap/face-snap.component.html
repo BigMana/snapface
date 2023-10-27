@@ -8,9 +8,9 @@
   </div>
   <div class="end-card">
     <div *ngIf="faceSnap.routerLink" class="link">
-      <div [ngClass]="{ unset: buttonText !== 'Oops, unSnap!' }">
+      <div class="pilot">
         <p>{{faceSnap.linkText}}</p>
-        <a routerLink="{{faceSnap.routerLink}}"href="">a</a>
+        <a routerLink="{{faceSnap.routerLink}}"href=""><img [src]="faceSnap.linkImage" alt="Pirate Wheel"></a>
       </div>
     </div>
     <div *ngIf="faceSnap.audio" class="audio">

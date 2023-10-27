@@ -15,7 +15,7 @@ export class FaceSnapsService {
       createdDate: new Date(),
       routerLink: "/pilot",
       linkText: "Let's try to Pilot The DriX !",
-      linkImage: "b",
+      linkImage: "assets/img/pirateWheel.png",
       snaps: 5,
       location: 'La Ciotat'
     },
